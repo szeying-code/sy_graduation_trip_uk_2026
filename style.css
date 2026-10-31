@@ -169,3 +169,20 @@ td.High{background:#f6e3df;color:#b5483b}td.Medium{background:#f8ead2;color:#9a5
 .ffoot{color:var(--mute);font-size:.82rem;margin:10px 0 0}
 td.y,td.n,td.q,td.z{text-align:center;font-weight:700}
 td.y{background:#e4f2e5;color:#2e7d32}td.n{background:#fbe7e5;color:#b3261e}td.q{background:#f8ead2;color:#9a5f14}td.z{color:var(--mute)}
+
+/* RESTAURANT PHOTOS + GOOGLE MAPS LINKS (added). Colours follow the city class (c-prague, c-pd ...) */
+.gl{color:inherit;text-decoration:underline dotted;text-underline-offset:3px}
+.gl:hover,.gl:focus-visible{color:var(--cx);outline:none}
+.pi{text-decoration:none;font-size:.8rem;margin-left:4px}
+.pgal-title{font-family:Georgia,"Times New Roman",serif;font-size:1.15rem;color:var(--cx);margin:22px 0 4px}
+.pgal{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:12px;margin:8px 0 4px}
+.pcard{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--c);border-radius:14px;padding:12px 14px;min-width:0}
+.pc-head{display:flex;flex-direction:column;gap:2px;margin-bottom:8px}
+.pc-head b{font-size:1rem;line-height:1.3}
+.pc-head span{color:var(--mute);font-size:.85rem;line-height:1.35}
+.pc-head .gm{align-self:flex-start;margin-top:5px;background:var(--ct);color:var(--cx);font-weight:700;font-size:.82rem;padding:4px 12px;border-radius:999px;text-decoration:none}
+.pc-head .gm:hover,.pc-head .gm:focus-visible{background:var(--c);color:#fff;outline:none}
+.pc-strip{display:flex;gap:6px;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:4px}
+.pc-strip a{flex:0 0 auto;scroll-snap-align:start}
+.pc-strip img{display:block;height:112px;width:auto;border-radius:8px;background:var(--ct)}
+
