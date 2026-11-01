@@ -184,5 +184,13 @@ td.y{background:#e4f2e5;color:#2e7d32}td.n{background:#fbe7e5;color:#b3261e}td.q
 .pc-head .gm:hover,.pc-head .gm:focus-visible{background:var(--c);color:#fff;outline:none}
 .pc-strip{display:flex;gap:6px;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:4px}
 .pc-strip a{flex:0 0 auto;scroll-snap-align:start}
-.pc-strip img{display:block;height:112px;width:auto;border-radius:8px;background:var(--ct)}
+.pc-strip img{display:block;height:112px;width:auto;border-radius:8px;background:var(--ct);cursor:zoom-in}
+
+/* PHOTO POP-UP (lightbox): tap a photo to enlarge it, tap anywhere to close */
+.lb{position:fixed;inset:0;z-index:999;background:rgba(18,18,24,.92);display:none;align-items:center;justify-content:center;flex-direction:column;cursor:zoom-out;padding:12px}
+.lb.on{display:flex}
+.lb img{max-width:100%;max-height:calc(100vh - 90px);object-fit:contain;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+.lb-cap{color:#fff;font-size:.95rem;margin-top:10px;text-align:center}
+.lb-x{color:#bbb;font-size:.8rem;margin-top:4px}
+body.lb-open{overflow:hidden}
 
