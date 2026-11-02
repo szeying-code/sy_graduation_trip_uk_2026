@@ -1,0 +1,7 @@
+Peak District journey update (days 23 to 27)
+
+Upload the files inside this folder (index.html and the days folder) to your repository:
+GitHub > Add file > Upload files > drag index.html and the days folder > Commit changes.
+
+These pages are built on the photo and Google Maps update (v2). Upload that update first
+(or at least its batch-1_code), because these day pages use its style.css and food.html.
